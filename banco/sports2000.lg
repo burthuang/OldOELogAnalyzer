@@ -1,0 +1,519 @@
+
+                Tue Mar 31 10:17:10 2015
+[2015/03/31@10:17:10.660-0300] P-6388       T-13292 I DBUTIL   : (451)   prostrct create session begin for hberengu on CON:. 
+[2015/03/31@10:17:10.679-0300] P-6388       T-13292 I DBUTIL   : (12862) Structure file sports2000.st used to create database with blocksize 4096. 
+[2015/03/31@10:17:10.687-0300] P-6388       T-13292 I DBUTIL   : (334)   prostrct create session end. 
+[2015/03/31@10:17:10.713-0300] P-6388       T-13292 I DBUTIL   : (451)   procopy session begin for hberengu on CON:. 
+[2015/03/31@10:17:11.034-0300] P-6388       T-13292 I DBUTIL   : (334)   procopy session end. 
+
+                Tue Mar 31 10:17:11 2015
+[2015/03/31@10:17:11.109-0300] P-6388       T-13292 I          : (451)   procopy get default SQL DBA session begin for hberengu on CON:. 
+[2015/03/31@10:17:11.111-0300] P-6388       T-13292 I          : (15321) Before Image Log Initialization at block 0  offset 10231152. 
+[2015/03/31@10:17:11.400-0300] P-6388       T-13292 I          : (1365)  Database copied from C:\dlc113\sports2000. 
+[2015/03/31@10:17:11.446-0300] P-6388       T-13292 I          : (15109) At Database close the number of live transactions is 0. 
+[2015/03/31@10:17:11.447-0300] P-6388       T-13292 I          : (15743) Before Image Log Completion at Block 0 Offset 632. 
+[2015/03/31@10:17:11.460-0300] P-6388       T-13292 I          : (334)   procopy get default SQL DBA session end. 
+
+                Tue Mar 31 10:17:14 2015
+[2015/03/31@10:17:14.589-0300] P-6148       T-12740 I BROKER  0: (333)   Multi-user session begin. 
+[2015/03/31@10:17:14.590-0300] P-6148       T-12740 I BROKER  0: (15321) Before Image Log Initialization at block 0  offset 632. 
+[2015/03/31@10:17:14.597-0300] P-6148       T-12740 I BROKER  0: (452)   Login by hberengu on CON:. 
+[2015/03/31@10:17:14.598-0300] P-6148       T-12740 I BROKER  0: (4234)  Progress OpenEdge Release 11.3 build 1232 on WINNT . 
+[2015/03/31@10:17:14.598-0300] P-6148       T-12740 I BROKER  0: (4281)  Server started by hberengu on CON:. 
+[2015/03/31@10:17:14.602-0300] P-6148       T-12740 I BROKER  0: (6574)  Started using pid: 6148. 
+[2015/03/31@10:17:14.602-0300] P-6148       T-12740 I BROKER  0: (4235)  Physical Database Name (-db): sports2000. 
+[2015/03/31@10:17:14.602-0300] P-6148       T-12740 I BROKER  0: (4236)  Database Type (-dt): PROGRESS. 
+[2015/03/31@10:17:14.603-0300] P-6148       T-12740 I BROKER  0: (4237)  Force Access (-F): Not Enabled. 
+[2015/03/31@10:17:14.603-0300] P-6148       T-12740 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled. 
+[2015/03/31@10:17:14.603-0300] P-6148       T-12740 I BROKER  0: (-----) LRU mechanism enabled.
+[2015/03/31@10:17:14.604-0300] P-6148       T-12740 I BROKER  0: (-----) Number of LRU force skips (-lruskips): 0
+[2015/03/31@10:17:14.605-0300] P-6148       T-12740 I BROKER  0: (-----) Number of LRU2 force skips (-lru2skips): 0
+[2015/03/31@10:17:14.605-0300] P-6148       T-12740 I BROKER  0: (4239)  Number of Database Buffers (-B): 3000. 
+[2015/03/31@10:17:14.606-0300] P-6148       T-12740 I BROKER  0: (-----) Number of Alternate Database Buffers (-B2): 0.
+[2015/03/31@10:17:14.606-0300] P-6148       T-12740 I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64. 
+[2015/03/31@10:17:14.607-0300] P-6148       T-12740 I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 23. 
+[2015/03/31@10:17:14.607-0300] P-6148       T-12740 I BROKER  0: (10014) The shared memory segment is not locked in memory. 
+[2015/03/31@10:17:14.607-0300] P-6148       T-12740 I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192. 
+[2015/03/31@10:17:14.609-0300] P-6148       T-12740 I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000. 
+[2015/03/31@10:17:14.610-0300] P-6148       T-12740 I BROKER  0: (4242)  Hash Table Entries (-hash): 887. 
+[2015/03/31@10:17:14.610-0300] P-6148       T-12740 I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 24000. 
+[2015/03/31@10:17:14.624-0300] P-6148       T-12740 I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3. 
+[2015/03/31@10:17:14.624-0300] P-6148       T-12740 I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize) 128 Mb. 
+[2015/03/31@10:17:14.624-0300] P-6148       T-12740 I BROKER  0: (4244)  Crash Recovery (-i): Enabled. 
+[2015/03/31@10:17:14.625-0300] P-6148       T-12740 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096. 
+[2015/03/31@10:17:14.625-0300] P-6148       T-12740 I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3. 
+[2015/03/31@10:17:14.626-0300] P-6148       T-12740 I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable. 
+[2015/03/31@10:17:14.626-0300] P-6148       T-12740 I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0. 
+[2015/03/31@10:17:14.626-0300] P-6148       T-12740 I BROKER  0: (4250)  Before-Image Cluster Size: 524288. 
+[2015/03/31@10:17:14.627-0300] P-6148       T-12740 I BROKER  0: (4251)  Before-Image Block Size: 8192. 
+[2015/03/31@10:17:14.627-0300] P-6148       T-12740 I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 20. 
+[2015/03/31@10:17:14.627-0300] P-6148       T-12740 I BROKER  0: (-----) Record free chain search depth factor 5 (-recspacesearchdepth)
+[2015/03/31@10:17:14.628-0300] P-6148       T-12740 I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes. 
+[2015/03/31@10:17:14.628-0300] P-6148       T-12740 I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled. 
+[2015/03/31@10:17:14.629-0300] P-6148       T-12740 I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled. 
+[2015/03/31@10:17:14.629-0300] P-6148       T-12740 I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2015/03/31@10:17:14.630-0300] P-6148       T-12740 I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 20. 
+[2015/03/31@10:17:14.630-0300] P-6148       T-12740 I BROKER  0: (-----) Partition Manager cache size (-mtpmsize): 1024
+[2015/03/31@10:17:14.631-0300] P-6148       T-12740 I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2015/03/31@10:17:14.631-0300] P-6148       T-12740 I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5. 
+[2015/03/31@10:17:14.631-0300] P-6148       T-12740 I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5. 
+[2015/03/31@10:17:14.632-0300] P-6148       T-12740 I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1. 
+[2015/03/31@10:17:14.632-0300] P-6148       T-12740 I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Disabled 
+[2015/03/31@10:17:14.633-0300] P-6148       T-12740 I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2015/03/31@10:17:14.633-0300] P-6148       T-12740 I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Disabled 
+[2015/03/31@10:17:14.633-0300] P-6148       T-12740 I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 0 
+[2015/03/31@10:17:14.633-0300] P-6148       T-12740 I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 16 
+[2015/03/31@10:17:14.634-0300] P-6148       T-12740 I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 0 
+[2015/03/31@10:17:14.634-0300] P-6148       T-12740 I BROKER  0: (4260)  Maximum Number of Users (-n): 21. 
+[2015/03/31@10:17:14.634-0300] P-6148       T-12740 I BROKER  0: (4261)  Host Name (-H): Not Enabled. 
+[2015/03/31@10:17:14.634-0300] P-6148       T-12740 I BROKER  0: (4262)  Service Name (-S): Not Enabled. 
+[2015/03/31@10:17:14.635-0300] P-6148       T-12740 I BROKER  0: (4263)  Network Type (-N): Not Enabled. 
+[2015/03/31@10:17:14.635-0300] P-6148       T-12740 I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1. 
+[2015/03/31@10:17:14.635-0300] P-6148       T-12740 I BROKER  0: (4282)  Parameter File: Not Enabled. 
+[2015/03/31@10:17:14.637-0300] P-6148       T-12740 I BROKER  0: (12540) Size of JTA transaction table (-maxxids):  100 
+[2015/03/31@10:17:14.637-0300] P-6148       T-12740 I BROKER  0: (9336)  Created shared memory with segment_id: 44892160 
+[2015/03/31@10:17:14.638-0300] P-6148       T-12740 I BROKER  0: (12813) Allowed index cursors (-c): 84. 
+[2015/03/31@10:17:14.638-0300] P-6148       T-12740 I BROKER  0: (12814) Group delay (-groupdelay): 10. 
+[2015/03/31@10:17:14.639-0300] P-6148       T-12740 I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2015/03/31@10:17:14.639-0300] P-6148       T-12740 I BROKER  0: (12818) Message Buffer Size (-Mm): 1024 
+[2015/03/31@10:17:14.639-0300] P-6148       T-12740 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2015/03/31@10:17:14.640-0300] P-6148       T-12740 I BROKER  0: (12823) Semaphore Sets (-semsets): 3 
+[2015/03/31@10:17:14.640-0300] P-6148       T-12740 I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica) : 64.0  KBytes. 
+[2015/03/31@10:17:14.641-0300] P-6148       T-12740 I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000. 
+[2015/03/31@10:17:14.641-0300] P-6148       T-12740 I BROKER  0: (15219) Encryption enabled: 0 
+[2015/03/31@10:17:14.641-0300] P-6148       T-12740 I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2015/03/31@10:17:14.642-0300] P-6148       T-12740 I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2015/03/31@10:17:14.644-0300] P-6148       T-12740 I BROKER  0: (10471) Database connections have been enabled. 
+[2015/03/31@10:17:30.467-0300] P-10408      T-2528  I ABL     5: (452)   Login by hberengu on CON:. 
+[2015/03/31@10:17:30.512-0300] P-10408      T-2528  I ABL     5: (7129)  Usr 5 set name to hberengu. 
+[2015/03/31@10:17:35.508-0300] P-10408      T-2528  I ABL     5: (453)   Logout by hberengu on CON:. 
+[2015/03/31@10:17:51.433-0300] P-6856       T-6176  I SHUT    5: (452)   Login by hberengu on CON:. 
+[2015/03/31@10:17:51.449-0300] P-6856       T-6176  I SHUT    5: (542)   Server shutdown started by hberengu on CON:. 
+[2015/03/31@10:17:53.649-0300] P-6148       T-12740 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2015/03/31@10:17:53.650-0300] P-6148       T-12740 I BROKER  0: (2248)  Begin normal shutdown 
+[2015/03/31@10:17:54.651-0300] P-6148       T-12740 I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2015/03/31@10:17:58.680-0300] P-6148       T-12740 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2015/03/31@10:17:58.682-0300] P-6148       T-12740 I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 632. 
+[2015/03/31@10:17:58.684-0300] P-6148       T-12740 I BROKER  0: (453)   Logout by hberengu on CON:. 
+[2015/03/31@10:17:58.688-0300] P-6148       T-12740 I BROKER   : (16869) Removed shared memory with segment_id: 44892160 
+[2015/03/31@10:17:58.689-0300] P-6148       T-12740 I BROKER   : (334)   Multi-user session end. 
+[2015/03/31@10:17:59.452-0300] P-6856       T-6176  I SHUT    5: (453)   Logout by hberengu on CON:. 
+
+                Tue Mar 31 10:18:01 2015
+[2015/03/31@10:18:01.947-0300] P-13024      T-11172 I          : (451)   Truncate bi session begin for hberengu on CON:. 
+[2015/03/31@10:18:01.960-0300] P-13024      T-11172 I          : (15321) Before Image Log Initialization at block 0  offset 632. 
+[2015/03/31@10:18:01.976-0300] P-13024      T-11172 I          : (7129)  Usr 0 set name to PROGRESS\hberengu. 
+[2015/03/31@10:18:02.018-0300] P-13024      T-11172 I          : (123)   .bi file truncated. 
+[2015/03/31@10:18:02.021-0300] P-13024      T-11172 I          : (15109) At Database close the number of live transactions is 0. 
+[2015/03/31@10:18:02.021-0300] P-13024      T-11172 I          : (15743) Before Image Log Completion at Block 0 Offset 632. 
+[2015/03/31@10:18:02.030-0300] P-13024      T-11172 I          : (334)   Truncate bi session end. 
+
+                Tue Mar 31 10:18:07 2015
+[2015/03/31@10:18:07.939-0300] P-11672      T-10028 I          : (451)   Idxbuild session begin for hberengu on CON:. 
+[2015/03/31@10:18:07.942-0300] P-11672      T-10028 I          : (7129)  Usr 0 set name to PROGRESS\hberengu. 
+[2015/03/31@10:18:07.943-0300] P-11672      T-10028 I          : (345)   Index rebuild utility started. 
+[2015/03/31@10:18:07.994-0300] P-11672      T-10028 I          : (13942) Idxbuild is running with threads.  The maximum number of sort group threads is 4. 
+[2015/03/31@10:18:07.999-0300] P-11672      T-10028 I          : (16141) TMB value is 8, TM value is 8, SG value is 48, packing factor is 100. 
+[2015/03/31@10:18:08.027-0300] P-11672      T-10028 I          : (11443) Temporary sort file at: C:\Users\hberengu\workspace\OELogAnalyzer\banco will use the available disk space. 
+[2015/03/31@10:18:08.030-0300] P-11672      T-10028 I          : (-----)  Process memory 10670080 of 786432000 in use
+[2015/03/31@10:18:08.031-0300] P-11672      T-10028 I          : (-----)  Max merge pool entries estimated at: 94697 w/memory usage: 775757824
+[2015/03/31@10:18:08.202-0300] P-11672      T-10028 I          : (8831)  Index 9 ( PUB.Invoice, CustNum ): de-activated 
+[2015/03/31@10:18:08.205-0300] P-11672      T-10028 I          : (8831)  Index 10 ( PUB.Invoice, InvoiceDate ): de-activated 
+[2015/03/31@10:18:08.207-0300] P-11672      T-10028 I          : (8831)  Index 8 ( PUB.Invoice, InvoiceNum ): de-activated 
+[2015/03/31@10:18:08.210-0300] P-11672      T-10028 I          : (8831)  Index 11 ( PUB.Invoice, OrderNum ): de-activated 
+[2015/03/31@10:18:08.212-0300] P-11672      T-10028 I          : (8831)  Index 13 ( PUB.Customer, Comments ): de-activated 
+[2015/03/31@10:18:08.214-0300] P-11672      T-10028 I          : (8831)  Index 14 ( PUB.Customer, CountryPost ): de-activated 
+[2015/03/31@10:18:08.216-0300] P-11672      T-10028 I          : (8831)  Index 12 ( PUB.Customer, CustNum ): de-activated 
+[2015/03/31@10:18:08.218-0300] P-11672      T-10028 I          : (8831)  Index 15 ( PUB.Customer, Name ): de-activated 
+[2015/03/31@10:18:08.219-0300] P-11672      T-10028 I          : (8831)  Index 16 ( PUB.Customer, SalesRep ): de-activated 
+[2015/03/31@10:18:08.221-0300] P-11672      T-10028 I          : (8831)  Index 18 ( PUB.Item, CatDescription ): de-activated 
+[2015/03/31@10:18:08.223-0300] P-11672      T-10028 I          : (8831)  Index 19 ( PUB.Item, Category2ItemName ): de-activated 
+[2015/03/31@10:18:08.225-0300] P-11672      T-10028 I          : (8831)  Index 20 ( PUB.Item, CategoryItemName ): de-activated 
+[2015/03/31@10:18:08.227-0300] P-11672      T-10028 I          : (8831)  Index 21 ( PUB.Item, ItemName ): de-activated 
+[2015/03/31@10:18:08.229-0300] P-11672      T-10028 I          : (8831)  Index 17 ( PUB.Item, ItemNum ): de-activated 
+[2015/03/31@10:18:08.231-0300] P-11672      T-10028 I          : (8831)  Index 23 ( PUB.OrderLine, itemnum ): de-activated 
+[2015/03/31@10:18:08.233-0300] P-11672      T-10028 I          : (8831)  Index 22 ( PUB.OrderLine, orderline ): de-activated 
+[2015/03/31@10:18:08.235-0300] P-11672      T-10028 I          : (8831)  Index 24 ( PUB.OrderLine, OrderLineStatus ): de-activated 
+[2015/03/31@10:18:08.237-0300] P-11672      T-10028 I          : (8831)  Index 25 ( PUB.Salesrep, SalesRep ): de-activated 
+[2015/03/31@10:18:08.239-0300] P-11672      T-10028 I          : (8831)  Index 26 ( PUB.State, State ): de-activated 
+[2015/03/31@10:18:08.240-0300] P-11672      T-10028 I          : (8831)  Index 27 ( PUB.LocalDefault, localdefnum ): de-activated 
+[2015/03/31@10:18:08.241-0300] P-11672      T-10028 I          : (8831)  Index 28 ( PUB.RefCall, CallNum ): de-activated 
+[2015/03/31@10:18:08.242-0300] P-11672      T-10028 I          : (8831)  Index 29 ( PUB.RefCall, CustNum ): de-activated 
+[2015/03/31@10:18:08.244-0300] P-11672      T-10028 I          : (8831)  Index 30 ( PUB.RefCall, Sibling ): de-activated 
+[2015/03/31@10:18:08.245-0300] P-11672      T-10028 I          : (8831)  Index 31 ( PUB.RefCall, Txt ): de-activated 
+[2015/03/31@10:18:08.246-0300] P-11672      T-10028 I          : (8831)  Index 33 ( PUB.Feedback, Comments ): de-activated 
+[2015/03/31@10:18:08.246-0300] P-11672      T-10028 I          : (8831)  Index 34 ( PUB.Feedback, Company ): de-activated 
+[2015/03/31@10:18:08.247-0300] P-11672      T-10028 I          : (8831)  Index 35 ( PUB.Feedback, Contact ): de-activated 
+[2015/03/31@10:18:08.248-0300] P-11672      T-10028 I          : (8831)  Index 32 ( PUB.Feedback, Department ): de-activated 
+[2015/03/31@10:18:08.249-0300] P-11672      T-10028 I          : (8831)  Index 36 ( PUB.Feedback, Rating ): de-activated 
+[2015/03/31@10:18:08.250-0300] P-11672      T-10028 I          : (8831)  Index 38 ( PUB.Employee, DeptCode ): de-activated 
+[2015/03/31@10:18:08.251-0300] P-11672      T-10028 I          : (8831)  Index 37 ( PUB.Employee, EmpNo ): de-activated 
+[2015/03/31@10:18:08.252-0300] P-11672      T-10028 I          : (8831)  Index 39 ( PUB.Employee, Name ): de-activated 
+[2015/03/31@10:18:08.253-0300] P-11672      T-10028 I          : (8831)  Index 40 ( PUB.TimeSheet, EmpNoDayRecorded ): de-activated 
+[2015/03/31@10:18:08.254-0300] P-11672      T-10028 I          : (8831)  Index 41 ( PUB.Vacation, EmpNoStartDate ): de-activated 
+[2015/03/31@10:18:08.255-0300] P-11672      T-10028 I          : (8831)  Index 42 ( PUB.Family, EmpNoRelativeName ): de-activated 
+[2015/03/31@10:18:08.256-0300] P-11672      T-10028 I          : (8831)  Index 43 ( PUB.Department, DeptCode ): de-activated 
+[2015/03/31@10:18:08.257-0300] P-11672      T-10028 I          : (8831)  Index 44 ( PUB.Benefits, EmpNo ): de-activated 
+[2015/03/31@10:18:08.258-0300] P-11672      T-10028 I          : (8831)  Index 45 ( PUB.ShipTo, custnumshipto ): de-activated 
+[2015/03/31@10:18:08.260-0300] P-11672      T-10028 I          : (8831)  Index 46 ( PUB.BillTo, custnumbillto ): de-activated 
+[2015/03/31@10:18:08.261-0300] P-11672      T-10028 I          : (8831)  Index 48 ( PUB.Order, CustOrder ): de-activated 
+[2015/03/31@10:18:08.261-0300] P-11672      T-10028 I          : (8831)  Index 49 ( PUB.Order, OrderDate ): de-activated 
+[2015/03/31@10:18:08.262-0300] P-11672      T-10028 I          : (8831)  Index 47 ( PUB.Order, OrderNum ): de-activated 
+[2015/03/31@10:18:08.263-0300] P-11672      T-10028 I          : (8831)  Index 50 ( PUB.Order, OrderStatus ): de-activated 
+[2015/03/31@10:18:08.264-0300] P-11672      T-10028 I          : (8831)  Index 51 ( PUB.Order, SalesRep ): de-activated 
+[2015/03/31@10:18:08.265-0300] P-11672      T-10028 I          : (8831)  Index 52 ( PUB.Supplier, SupplierID ): de-activated 
+[2015/03/31@10:18:08.266-0300] P-11672      T-10028 I          : (8831)  Index 54 ( PUB.Warehouse, warehousename ): de-activated 
+[2015/03/31@10:18:08.267-0300] P-11672      T-10028 I          : (8831)  Index 53 ( PUB.Warehouse, warehousenum ): de-activated 
+[2015/03/31@10:18:08.268-0300] P-11672      T-10028 I          : (8831)  Index 55 ( PUB.Bin, BinNum ): de-activated 
+[2015/03/31@10:18:08.269-0300] P-11672      T-10028 I          : (8831)  Index 56 ( PUB.Bin, ItemNum ): de-activated 
+[2015/03/31@10:18:08.269-0300] P-11672      T-10028 I          : (8831)  Index 57 ( PUB.Bin, WarehouseNumItemNum ): de-activated 
+[2015/03/31@10:18:08.270-0300] P-11672      T-10028 I          : (8831)  Index 58 ( PUB.InventoryTrans, default ): de-activated 
+[2015/03/31@10:18:08.270-0300] P-11672      T-10028 I          : (8831)  Index 59 ( PUB.PurchaseOrder, PONum ): de-activated 
+[2015/03/31@10:18:08.271-0300] P-11672      T-10028 I          : (8831)  Index 60 ( PUB.POLine, PONumLinenum ): de-activated 
+[2015/03/31@10:18:08.271-0300] P-11672      T-10028 I          : (8831)  Index 62 ( PUB.SupplierItemXref, ItemNumSupplierID ): de-activated 
+[2015/03/31@10:18:08.271-0300] P-11672      T-10028 I          : (8831)  Index 61 ( PUB.SupplierItemXref, SupplieridItemNum ): de-activated 
+[2015/03/31@10:18:08.273-0300] P-11672      T-10028 I          : (-----) Area 10: Index scan (Type I) complete.  Elapsed time: 0.000
+[2015/03/31@10:18:08.291-0300] P-11672      T-10028 I          : (-----) Area 6: All scan (Type I) complete.  Elapsed time: 0.017
+[2015/03/31@10:18:08.293-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:08.295-0300] P-11672      T-5804  I          : (-----) Sorting index group 2 complete.  Elapsed time: 0.000
+[2015/03/31@10:18:08.296-0300] P-11672      T-12964 I          : (-----) Sorting index group 3 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:08.296-0300] P-11672      T-6208  I          : (-----) Sorting index group 4 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:08.298-0300] P-11672      T-11836 I          : (-----) Sorting index group 1 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:08.300-0300] P-11672      T-12964 I          : (-----) Sorting index group 6 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:08.301-0300] P-11672      T-6208  I          : (-----) Sorting index group 7 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:08.301-0300] P-11672      T-5804  I          : (-----) Sorting index group 5 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:08.303-0300] P-11672      T-11836 I          : (-----) Sorting index group 9 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:08.305-0300] P-11672      T-12964 I          : (-----) Sorting index group 10 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:08.306-0300] P-11672      T-6208  I          : (-----) Sorting index group 13 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.307-0300] P-11672      T-12964 I          : (-----) Sorting index group 16 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:08.309-0300] P-11672      T-5804  I          : (-----) Sorting index group 14 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:08.311-0300] P-11672      T-11836 I          : (-----) Sorting index group 15 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:08.313-0300] P-11672      T-6208  I          : (-----) Sorting index group 17 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:08.314-0300] P-11672      T-12964 I          : (-----) Sorting index group 18 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:08.316-0300] P-11672      T-5804  I          : (-----) Sorting index group 19 complete.  Elapsed time: 0.007
+[2015/03/31@10:18:08.317-0300] P-11672      T-11836 I          : (-----) Sorting index group 23 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.319-0300] P-11672      T-6208  I          : (-----) Sorting index group 24 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:08.319-0300] P-11672      T-11836 I          : (-----) Sorting index group 31 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:08.321-0300] P-11672      T-12964 I          : (-----) Sorting index group 25 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.323-0300] P-11672      T-5804  I          : (-----) Sorting index group 30 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.324-0300] P-11672      T-6208  I          : (-----) Sorting index group 32 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.326-0300] P-11672      T-11836 I          : (-----) Sorting index group 39 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:08.327-0300] P-11672      T-12964 I          : (-----) Sorting index group 40 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:10.294-0300] P-11672      T-10028 I          : (16757) Building index 1 (_File-Name) of group 1 
+[2015/03/31@10:18:10.297-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 1 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:10.301-0300] P-11672      T-10028 I          : (16757) Building index 2 (_File/Field) of group 2 
+[2015/03/31@10:18:10.306-0300] P-11672      T-10028 I          : (16757) Building index -1298 (_Domain-Id) of group 2 
+[2015/03/31@10:18:10.309-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 2 completed.  Elapsed time: 0.009
+[2015/03/31@10:18:10.313-0300] P-11672      T-10028 I          : (16757) Building index 3 (_Field-Name) of group 3 
+[2015/03/31@10:18:10.318-0300] P-11672      T-10028 I          : (16757) Building index -1299 (_Tenant-Name) of group 3 
+[2015/03/31@10:18:10.320-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 3 completed.  Elapsed time: 0.007
+[2015/03/31@10:18:10.324-0300] P-11672      T-10028 I          : (16757) Building index 4 (_Field-Position) of group 4 
+[2015/03/31@10:18:10.350-0300] P-11672      T-10028 I          : (16757) Building index 1060 (_Idxsystabauth) of group 4 
+[2015/03/31@10:18:10.352-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 4 completed.  Elapsed time: 0.028
+[2015/03/31@10:18:10.354-0300] P-11672      T-10028 I          : (16757) Building index 5 (_File/Index) of group 5 
+[2015/03/31@10:18:10.355-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 5 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.358-0300] P-11672      T-10028 I          : (16757) Building index 6 (_Index/Number) of group 6 
+[2015/03/31@10:18:10.360-0300] P-11672      T-10028 I          : (16757) Building index -1590 (_Object-PartitionId) of group 6 
+[2015/03/31@10:18:10.361-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 6 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:10.363-0300] P-11672      T-10028 I          : (16757) Building index 7 (_Field) of group 7 
+[2015/03/31@10:18:10.365-0300] P-11672      T-10028 I          : (16757) Building index -1591 (_Object-Area-Number) of group 7 
+[2015/03/31@10:18:10.366-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 7 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:10.368-0300] P-11672      T-10028 I          : (16757) Building index 1065 (_Idxsysprocedures) of group 9 
+[2015/03/31@10:18:10.369-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 9 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.371-0300] P-11672      T-10028 I          : (16757) Building index 1066 (_Idxsysdbauth) of group 10 
+[2015/03/31@10:18:10.372-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 10 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.374-0300] P-11672      T-10028 I          : (16757) Building index 1069 (_Idxsysdatatypes) of group 13 
+[2015/03/31@10:18:10.375-0300] P-11672      T-10028 I          : (16757) Building index -1309 (_Domain-type) of group 13 
+[2015/03/31@10:18:10.376-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 13 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:10.378-0300] P-11672      T-10028 I          : (16757) Building index 1022 (_Db/File) of group 14 
+[2015/03/31@10:18:10.379-0300] P-11672      T-10028 I          : (16757) Building index 1070 (_Idxsyscalctable) of group 14 
+[2015/03/31@10:18:10.380-0300] P-11672      T-10028 I          : (16757) Building index -1310 (_Domain-type-description) of group 14 
+[2015/03/31@10:18:10.381-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 14 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:10.383-0300] P-11672      T-10028 I          : (16757) Building index 1023 (_Database) of group 15 
+[2015/03/31@10:18:10.384-0300] P-11672      T-10028 I          : (16757) Building index -1311 (_PAM-module-name) of group 15 
+[2015/03/31@10:18:10.385-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 15 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:10.387-0300] P-11672      T-10028 I          : (16757) Building index 1024 (_Dump-Name) of group 16 
+[2015/03/31@10:18:10.388-0300] P-11672      T-10028 I          : (16757) Building index 1072 (_Idxsysproccolumns) of group 16 
+[2015/03/31@10:18:10.389-0300] P-11672      T-10028 I          : (16757) Building index -1312 (_Domain-name) of group 16 
+[2015/03/31@10:18:10.390-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 16 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:10.392-0300] P-11672      T-10028 I          : (16757) Building index 1025 (_Seq-Name) of group 17 
+[2015/03/31@10:18:10.393-0300] P-11672      T-10028 I          : (16757) Building index -1313 (_Domain-description) of group 17 
+[2015/03/31@10:18:10.394-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 17 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:10.395-0300] P-11672      T-10028 I          : (16757) Building index 1026 (_Object-Id) of group 18 
+[2015/03/31@10:18:10.396-0300] P-11672      T-10028 I          : (16757) Building index -1314 (_Domain-enabled) of group 18 
+[2015/03/31@10:18:10.397-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 18 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:10.399-0300] P-11672      T-10028 I          : (16757) Building index -1315 (_Domain-type) of group 19 
+[2015/03/31@10:18:10.400-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 19 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.401-0300] P-11672      T-10028 I          : (16757) Building index 1031 (_Viewidx) of group 23 
+[2015/03/31@10:18:10.401-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 23 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:10.402-0300] P-11672      T-10028 I          : (16757) Building index 1032 (_File-Number) of group 24 
+[2015/03/31@10:18:10.403-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 24 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.404-0300] P-11672      T-10028 I          : (16757) Building index 1033 (_Index-Number) of group 25 
+[2015/03/31@10:18:10.405-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 25 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.406-0300] P-11672      T-10028 I          : (16757) Building index 1086 (_Db-guid) of group 30 
+[2015/03/31@10:18:10.406-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 30 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:10.407-0300] P-11672      T-10028 I          : (16757) Building index 1087 (_Fieldphyspos) of group 31 
+[2015/03/31@10:18:10.408-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 31 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.409-0300] P-11672      T-10028 I          : (16757) Building index 1088 (_Option-code) of group 32 
+[2015/03/31@10:18:10.410-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 32 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.410-0300] P-11672      T-10028 I          : (16757) Building index 999 (_Index-Name) of group 39 
+[2015/03/31@10:18:10.411-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 39 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:10.412-0300] P-11672      T-10028 I          : (16757) Building index 1000 (_File-Trig) of group 40 
+[2015/03/31@10:18:10.412-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 40 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:10.413-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 2.120
+[2015/03/31@10:18:10.413-0300] P-11672      T-10028 I          : (16171) 37 indexes were rebuilt in area 6.  Total elapsed time: 2.139 
+[2015/03/31@10:18:10.415-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:10.415-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 6. 
+[2015/03/31@10:18:10.416-0300] P-11672      T-10028 I          : (-----) Area 7: All scan (Type I) complete.  Elapsed time: 0.000
+[2015/03/31@10:18:10.417-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:10.419-0300] P-11672      T-10464 I          : (-----) Sorting index group 37 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:10.421-0300] P-11672      T-10704 I          : (-----) Sorting index group 38 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:10.422-0300] P-11672      T-9196  I          : (-----) Sorting index group 39 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:10.424-0300] P-11672      T-8680  I          : (-----) Sorting index group 40 complete.  Elapsed time: 0.007
+[2015/03/31@10:18:10.426-0300] P-11672      T-10464 I          : (-----) Sorting index group 41 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:10.427-0300] P-11672      T-10704 I          : (-----) Sorting index group 42 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:10.429-0300] P-11672      T-9196  I          : (-----) Sorting index group 43 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:10.430-0300] P-11672      T-8680  I          : (-----) Sorting index group 44 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:12.417-0300] P-11672      T-10028 I          : (16757) Building index 37 (EmpNo) of group 37 
+[2015/03/31@10:18:12.419-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 37 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:12.422-0300] P-11672      T-10028 I          : (16757) Building index 38 (DeptCode) of group 38 
+[2015/03/31@10:18:12.424-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 38 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:12.429-0300] P-11672      T-10028 I          : (16757) Building index 39 (Name) of group 39 
+[2015/03/31@10:18:12.431-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 39 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:12.435-0300] P-11672      T-10028 I          : (16757) Building index 40 (EmpNoDayRecorded) of group 40 
+[2015/03/31@10:18:12.437-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 40 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:12.440-0300] P-11672      T-10028 I          : (16757) Building index 41 (EmpNoStartDate) of group 41 
+[2015/03/31@10:18:12.446-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 41 completed.  Elapsed time: 0.006
+[2015/03/31@10:18:12.456-0300] P-11672      T-10028 I          : (16757) Building index 42 (EmpNoRelativeName) of group 42 
+[2015/03/31@10:18:12.457-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 42 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:12.460-0300] P-11672      T-10028 I          : (16757) Building index 43 (DeptCode) of group 43 
+[2015/03/31@10:18:12.461-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 43 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:12.463-0300] P-11672      T-10028 I          : (16757) Building index 44 (EmpNo) of group 44 
+[2015/03/31@10:18:12.464-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 44 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:12.466-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 2.049
+[2015/03/31@10:18:12.467-0300] P-11672      T-10028 I          : (16171) 8 indexes were rebuilt in area 7.  Total elapsed time: 2.051 
+[2015/03/31@10:18:12.469-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:12.469-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 7. 
+[2015/03/31@10:18:12.484-0300] P-11672      T-10028 I          : (-----) Area 8: All scan (Type I) complete.  Elapsed time: 0.014
+[2015/03/31@10:18:12.485-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:12.487-0300] P-11672      T-9084  I          : (-----) Sorting index group 7 complete.  Elapsed time: 0.000
+[2015/03/31@10:18:12.488-0300] P-11672      T-9712  I          : (-----) Sorting index group 4 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:12.490-0300] P-11672      T-14056 I          : (-----) Sorting index group 5 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:12.491-0300] P-11672      T-9084  I          : (-----) Sorting index group 8 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:12.492-0300] P-11672      T-9712  I          : (-----) Sorting index group 9 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:12.492-0300] P-11672      T-9232  I          : (-----) Sorting index group 6 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:12.494-0300] P-11672      T-9084  I          : (-----) Sorting index group 11 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:12.494-0300] P-11672      T-9712  I          : (-----) Sorting index group 12 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:12.495-0300] P-11672      T-14056 I          : (-----) Sorting index group 10 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:12.497-0300] P-11672      T-9232  I          : (-----) Sorting index group 13 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:12.498-0300] P-11672      T-14056 I          : (-----) Sorting index group 18 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:12.498-0300] P-11672      T-9084  I          : (-----) Sorting index group 14 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:12.500-0300] P-11672      T-9712  I          : (-----) Sorting index group 17 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:12.501-0300] P-11672      T-9232  I          : (-----) Sorting index group 19 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:12.502-0300] P-11672      T-14056 I          : (-----) Sorting index group 20 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:12.504-0300] P-11672      T-9084  I          : (-----) Sorting index group 21 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:14.486-0300] P-11672      T-10028 I          : (16757) Building index 52 (SupplierID) of group 4 
+[2015/03/31@10:18:14.487-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 4 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.489-0300] P-11672      T-10028 I          : (16757) Building index 53 (warehousenum) of group 5 
+[2015/03/31@10:18:14.490-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 5 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.492-0300] P-11672      T-10028 I          : (16757) Building index 54 (warehousename) of group 6 
+[2015/03/31@10:18:14.493-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 6 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.495-0300] P-11672      T-10028 I          : (16757) Building index 55 (BinNum) of group 7 
+[2015/03/31@10:18:14.496-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 7 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.498-0300] P-11672      T-10028 I          : (16757) Building index 56 (ItemNum) of group 8 
+[2015/03/31@10:18:14.499-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 8 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.501-0300] P-11672      T-10028 I          : (16757) Building index 57 (WarehouseNumItemNum) of group 9 
+[2015/03/31@10:18:14.503-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 9 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:14.505-0300] P-11672      T-10028 I          : (16757) Building index 58 (default) of group 10 
+[2015/03/31@10:18:14.506-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 10 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.508-0300] P-11672      T-10028 I          : (16757) Building index 59 (PONum) of group 11 
+[2015/03/31@10:18:14.511-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 11 completed.  Elapsed time: 0.003
+[2015/03/31@10:18:14.512-0300] P-11672      T-10028 I          : (16757) Building index 60 (PONumLinenum) of group 12 
+[2015/03/31@10:18:14.517-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 12 completed.  Elapsed time: 0.004
+[2015/03/31@10:18:14.518-0300] P-11672      T-10028 I          : (16757) Building index 61 (SupplieridItemNum) of group 13 
+[2015/03/31@10:18:14.519-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 13 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.520-0300] P-11672      T-10028 I          : (16757) Building index 62 (ItemNumSupplierID) of group 14 
+[2015/03/31@10:18:14.521-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 14 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.523-0300] P-11672      T-10028 I          : (16757) Building index 17 (ItemNum) of group 17 
+[2015/03/31@10:18:14.523-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 17 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:14.525-0300] P-11672      T-10028 I          : (16757) Building index 18 (CatDescription) of group 18 
+[2015/03/31@10:18:14.526-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 18 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.528-0300] P-11672      T-10028 I          : (16757) Building index 19 (Category2ItemName) of group 19 
+[2015/03/31@10:18:14.529-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 19 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.530-0300] P-11672      T-10028 I          : (16757) Building index 20 (CategoryItemName) of group 20 
+[2015/03/31@10:18:14.531-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 20 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.532-0300] P-11672      T-10028 I          : (16757) Building index 21 (ItemName) of group 21 
+[2015/03/31@10:18:14.533-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 21 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.535-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 2.049
+[2015/03/31@10:18:14.535-0300] P-11672      T-10028 I          : (16171) 16 indexes were rebuilt in area 8.  Total elapsed time: 2.065 
+[2015/03/31@10:18:14.537-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:14.537-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 8. 
+[2015/03/31@10:18:14.546-0300] P-11672      T-10028 I          : (-----) Area 9: Record scan (Type I) complete.  Elapsed time: 0.008
+[2015/03/31@10:18:14.547-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:14.548-0300] P-11672      T-12516 I          : (-----) Sorting index group 12 complete.  Elapsed time: 0.000
+[2015/03/31@10:18:14.549-0300] P-11672      T-10028 I          : (16757) Building index 12 (CustNum) of group 12 
+[2015/03/31@10:18:14.551-0300] P-11672      T-4128  I          : (-----) Sorting index group 13 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.552-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 12 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:14.552-0300] P-11672      T-12516 I          : (-----) Sorting index group 14 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.553-0300] P-11672      T-8428  I          : (-----) Sorting index group 15 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:14.553-0300] P-11672      T-10216 I          : (-----) Sorting index group 16 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:14.554-0300] P-11672      T-10028 I          : (16757) Building index 13 (Comments) of group 13 
+[2015/03/31@10:18:14.554-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 13 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.555-0300] P-11672      T-10028 I          : (16757) Building index 14 (CountryPost) of group 14 
+[2015/03/31@10:18:14.556-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 14 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.557-0300] P-11672      T-10028 I          : (16757) Building index 15 (Name) of group 15 
+[2015/03/31@10:18:14.558-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 15 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.559-0300] P-11672      T-10028 I          : (16757) Building index 16 (SalesRep) of group 16 
+[2015/03/31@10:18:14.560-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 16 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:14.561-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 0.013
+[2015/03/31@10:18:14.562-0300] P-11672      T-10028 I          : (16171) 5 indexes were rebuilt in area 9.  Total elapsed time: 0.024 
+[2015/03/31@10:18:14.562-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:14.563-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 9. 
+[2015/03/31@10:18:14.603-0300] P-11672      T-10028 I          : (-----) Area 11: All scan (Type I) complete.  Elapsed time: 0.039
+[2015/03/31@10:18:14.603-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:14.605-0300] P-11672      T-13660 I          : (-----) Sorting index group 0 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:14.606-0300] P-11672      T-9868  I          : (-----) Sorting index group 1 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:14.606-0300] P-11672      T-1404  I          : (-----) Sorting index group 3 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.607-0300] P-11672      T-7884  I          : (-----) Sorting index group 2 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.609-0300] P-11672      T-13660 I          : (-----) Sorting index group 22 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.610-0300] P-11672      T-7884  I          : (-----) Sorting index group 45 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:14.611-0300] P-11672      T-9868  I          : (-----) Sorting index group 23 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:14.611-0300] P-11672      T-1404  I          : (-----) Sorting index group 24 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:14.612-0300] P-11672      T-7884  I          : (-----) Sorting index group 47 complete.  Elapsed time: 0.001
+[2015/03/31@10:18:14.612-0300] P-11672      T-13660 I          : (-----) Sorting index group 46 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:16.604-0300] P-11672      T-10028 I          : (16757) Building index 48 (CustOrder) of group 0 
+[2015/03/31@10:18:16.612-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 0 completed.  Elapsed time: 0.008
+[2015/03/31@10:18:16.615-0300] P-11672      T-10028 I          : (16757) Building index 49 (OrderDate) of group 1 
+[2015/03/31@10:18:16.622-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 1 completed.  Elapsed time: 0.007
+[2015/03/31@10:18:16.626-0300] P-11672      T-10028 I          : (16757) Building index 50 (OrderStatus) of group 2 
+[2015/03/31@10:18:16.633-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 2 completed.  Elapsed time: 0.007
+[2015/03/31@10:18:16.636-0300] P-11672      T-10028 I          : (16757) Building index 51 (SalesRep) of group 3 
+[2015/03/31@10:18:16.640-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 3 completed.  Elapsed time: 0.004
+[2015/03/31@10:18:16.643-0300] P-11672      T-10028 I          : (16757) Building index 22 (orderline) of group 22 
+[2015/03/31@10:18:16.655-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 22 completed.  Elapsed time: 0.012
+[2015/03/31@10:18:16.657-0300] P-11672      T-10028 I          : (16757) Building index 23 (itemnum) of group 23 
+[2015/03/31@10:18:16.668-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 23 completed.  Elapsed time: 0.011
+[2015/03/31@10:18:16.669-0300] P-11672      T-10028 I          : (16757) Building index 24 (OrderLineStatus) of group 24 
+[2015/03/31@10:18:16.674-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 24 completed.  Elapsed time: 0.005
+[2015/03/31@10:18:16.675-0300] P-11672      T-10028 I          : (16757) Building index 45 (custnumshipto) of group 45 
+[2015/03/31@10:18:16.676-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 45 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:16.677-0300] P-11672      T-10028 I          : (16757) Building index 46 (custnumbillto) of group 46 
+[2015/03/31@10:18:16.677-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 46 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:16.678-0300] P-11672      T-10028 I          : (16757) Building index 47 (OrderNum) of group 47 
+[2015/03/31@10:18:16.680-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 47 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:16.681-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 2.077
+[2015/03/31@10:18:16.682-0300] P-11672      T-10028 I          : (16171) 10 indexes were rebuilt in area 11.  Total elapsed time: 2.118 
+[2015/03/31@10:18:16.682-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:16.683-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 11. 
+[2015/03/31@10:18:16.684-0300] P-11672      T-10028 I          : (-----) Area 12: All scan (Type I) complete.  Elapsed time: 0.001
+[2015/03/31@10:18:16.685-0300] P-11672      T-10028 I          : (14536) Start 4 threads for the area. 
+[2015/03/31@10:18:16.687-0300] P-11672      T-13248 I          : (-----) Sorting index group 8 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:16.688-0300] P-11672      T-7848  I          : (-----) Sorting index group 9 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:16.693-0300] P-11672      T-4796  I          : (-----) Sorting index group 10 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:16.694-0300] P-11672      T-8628  I          : (-----) Sorting index group 11 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:16.695-0300] P-11672      T-13248 I          : (-----) Sorting index group 25 complete.  Elapsed time: 0.006
+[2015/03/31@10:18:16.697-0300] P-11672      T-7848  I          : (-----) Sorting index group 26 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:16.698-0300] P-11672      T-4796  I          : (-----) Sorting index group 27 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:16.701-0300] P-11672      T-8628  I          : (-----) Sorting index group 28 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:16.701-0300] P-11672      T-13248 I          : (-----) Sorting index group 29 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:16.703-0300] P-11672      T-7848  I          : (-----) Sorting index group 30 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:16.705-0300] P-11672      T-4796  I          : (-----) Sorting index group 31 complete.  Elapsed time: 0.002
+[2015/03/31@10:18:16.707-0300] P-11672      T-8628  I          : (-----) Sorting index group 32 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:16.708-0300] P-11672      T-13248 I          : (-----) Sorting index group 33 complete.  Elapsed time: 0.005
+[2015/03/31@10:18:16.709-0300] P-11672      T-7848  I          : (-----) Sorting index group 34 complete.  Elapsed time: 0.004
+[2015/03/31@10:18:16.710-0300] P-11672      T-4796  I          : (-----) Sorting index group 35 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:16.711-0300] P-11672      T-8628  I          : (-----) Sorting index group 36 complete.  Elapsed time: 0.003
+[2015/03/31@10:18:18.691-0300] P-11672      T-10028 I          : (16757) Building index 8 (InvoiceNum) of group 8 
+[2015/03/31@10:18:18.697-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 8 completed.  Elapsed time: 0.005
+[2015/03/31@10:18:18.702-0300] P-11672      T-10028 I          : (16757) Building index 9 (CustNum) of group 9 
+[2015/03/31@10:18:18.703-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 9 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.705-0300] P-11672      T-10028 I          : (16757) Building index 10 (InvoiceDate) of group 10 
+[2015/03/31@10:18:18.707-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 10 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:18.708-0300] P-11672      T-10028 I          : (16757) Building index 11 (OrderNum) of group 11 
+[2015/03/31@10:18:18.710-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 11 completed.  Elapsed time: 0.002
+[2015/03/31@10:18:18.712-0300] P-11672      T-10028 I          : (16757) Building index 25 (SalesRep) of group 25 
+[2015/03/31@10:18:18.713-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 25 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.716-0300] P-11672      T-10028 I          : (16757) Building index 26 (State) of group 26 
+[2015/03/31@10:18:18.717-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 26 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.718-0300] P-11672      T-10028 I          : (16757) Building index 27 (localdefnum) of group 27 
+[2015/03/31@10:18:18.719-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 27 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.719-0300] P-11672      T-10028 I          : (16757) Building index 28 (CallNum) of group 28 
+[2015/03/31@10:18:18.720-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 28 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.721-0300] P-11672      T-10028 I          : (16757) Building index 29 (CustNum) of group 29 
+[2015/03/31@10:18:18.721-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 29 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:18.722-0300] P-11672      T-10028 I          : (16757) Building index 30 (Sibling) of group 30 
+[2015/03/31@10:18:18.723-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 30 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.724-0300] P-11672      T-10028 I          : (16757) Building index 31 (Txt) of group 31 
+[2015/03/31@10:18:18.724-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 31 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:18.726-0300] P-11672      T-10028 I          : (16757) Building index 32 (Department) of group 32 
+[2015/03/31@10:18:18.727-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 32 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.728-0300] P-11672      T-10028 I          : (16757) Building index 33 (Comments) of group 33 
+[2015/03/31@10:18:18.728-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 33 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:18.729-0300] P-11672      T-10028 I          : (16757) Building index 34 (Company) of group 34 
+[2015/03/31@10:18:18.729-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 34 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:18.730-0300] P-11672      T-10028 I          : (16757) Building index 35 (Contact) of group 35 
+[2015/03/31@10:18:18.731-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 35 completed.  Elapsed time: 0.001
+[2015/03/31@10:18:18.732-0300] P-11672      T-10028 I          : (16757) Building index 36 (Rating) of group 36 
+[2015/03/31@10:18:18.732-0300] P-11672      T-10028 I          : (-----) Building of indexes in group 36 completed.  Elapsed time: 0.000
+[2015/03/31@10:18:18.733-0300] P-11672      T-10028 I          : (-----) Multi-threaded index sorting and building complete.  Elapsed time: 2.048
+[2015/03/31@10:18:18.733-0300] P-11672      T-10028 I          : (16171) 16 indexes were rebuilt in area 12.  Total elapsed time: 2.050 
+[2015/03/31@10:18:18.734-0300] P-11672      T-10028 I          : (11480) Temporary sort file at C:\Users\hberengu\workspace\OELogAnalyzer\banco used up 0K of disk space. 
+[2015/03/31@10:18:18.735-0300] P-11672      T-10028 I          : (11483) A total of 0K of temporary sort disk space was used for area 12. 
+[2015/03/31@10:18:18.736-0300] P-11672      T-10028 I          : (8830)  Index 9 ( PUB.Invoice, CustNum ): activated 
+[2015/03/31@10:18:18.736-0300] P-11672      T-10028 I          : (8830)  Index 10 ( PUB.Invoice, InvoiceDate ): activated 
+[2015/03/31@10:18:18.737-0300] P-11672      T-10028 I          : (8830)  Index 8 ( PUB.Invoice, InvoiceNum ): activated 
+[2015/03/31@10:18:18.737-0300] P-11672      T-10028 I          : (8830)  Index 11 ( PUB.Invoice, OrderNum ): activated 
+[2015/03/31@10:18:18.738-0300] P-11672      T-10028 I          : (8830)  Index 13 ( PUB.Customer, Comments ): activated 
+[2015/03/31@10:18:18.738-0300] P-11672      T-10028 I          : (8830)  Index 14 ( PUB.Customer, CountryPost ): activated 
+[2015/03/31@10:18:18.738-0300] P-11672      T-10028 I          : (8830)  Index 12 ( PUB.Customer, CustNum ): activated 
+[2015/03/31@10:18:18.739-0300] P-11672      T-10028 I          : (8830)  Index 15 ( PUB.Customer, Name ): activated 
+[2015/03/31@10:18:18.739-0300] P-11672      T-10028 I          : (8830)  Index 16 ( PUB.Customer, SalesRep ): activated 
+[2015/03/31@10:18:18.740-0300] P-11672      T-10028 I          : (8830)  Index 18 ( PUB.Item, CatDescription ): activated 
+[2015/03/31@10:18:18.740-0300] P-11672      T-10028 I          : (8830)  Index 19 ( PUB.Item, Category2ItemName ): activated 
+[2015/03/31@10:18:18.741-0300] P-11672      T-10028 I          : (8830)  Index 20 ( PUB.Item, CategoryItemName ): activated 
+[2015/03/31@10:18:18.741-0300] P-11672      T-10028 I          : (8830)  Index 21 ( PUB.Item, ItemName ): activated 
+[2015/03/31@10:18:18.742-0300] P-11672      T-10028 I          : (8830)  Index 17 ( PUB.Item, ItemNum ): activated 
+[2015/03/31@10:18:18.742-0300] P-11672      T-10028 I          : (8830)  Index 23 ( PUB.OrderLine, itemnum ): activated 
+[2015/03/31@10:18:18.743-0300] P-11672      T-10028 I          : (8830)  Index 22 ( PUB.OrderLine, orderline ): activated 
+[2015/03/31@10:18:18.743-0300] P-11672      T-10028 I          : (8830)  Index 24 ( PUB.OrderLine, OrderLineStatus ): activated 
+[2015/03/31@10:18:18.744-0300] P-11672      T-10028 I          : (8830)  Index 25 ( PUB.Salesrep, SalesRep ): activated 
+[2015/03/31@10:18:18.744-0300] P-11672      T-10028 I          : (8830)  Index 26 ( PUB.State, State ): activated 
+[2015/03/31@10:18:18.745-0300] P-11672      T-10028 I          : (8830)  Index 27 ( PUB.LocalDefault, localdefnum ): activated 
+[2015/03/31@10:18:18.745-0300] P-11672      T-10028 I          : (8830)  Index 28 ( PUB.RefCall, CallNum ): activated 
+[2015/03/31@10:18:18.745-0300] P-11672      T-10028 I          : (8830)  Index 29 ( PUB.RefCall, CustNum ): activated 
+[2015/03/31@10:18:18.746-0300] P-11672      T-10028 I          : (8830)  Index 30 ( PUB.RefCall, Sibling ): activated 
+[2015/03/31@10:18:18.746-0300] P-11672      T-10028 I          : (8830)  Index 31 ( PUB.RefCall, Txt ): activated 
+[2015/03/31@10:18:18.746-0300] P-11672      T-10028 I          : (8830)  Index 33 ( PUB.Feedback, Comments ): activated 
+[2015/03/31@10:18:18.747-0300] P-11672      T-10028 I          : (8830)  Index 34 ( PUB.Feedback, Company ): activated 
+[2015/03/31@10:18:18.747-0300] P-11672      T-10028 I          : (8830)  Index 35 ( PUB.Feedback, Contact ): activated 
+[2015/03/31@10:18:18.747-0300] P-11672      T-10028 I          : (8830)  Index 32 ( PUB.Feedback, Department ): activated 
+[2015/03/31@10:18:18.748-0300] P-11672      T-10028 I          : (8830)  Index 36 ( PUB.Feedback, Rating ): activated 
+[2015/03/31@10:18:18.748-0300] P-11672      T-10028 I          : (8830)  Index 38 ( PUB.Employee, DeptCode ): activated 
+[2015/03/31@10:18:18.749-0300] P-11672      T-10028 I          : (8830)  Index 37 ( PUB.Employee, EmpNo ): activated 
+[2015/03/31@10:18:18.749-0300] P-11672      T-10028 I          : (8830)  Index 39 ( PUB.Employee, Name ): activated 
+[2015/03/31@10:18:18.749-0300] P-11672      T-10028 I          : (8830)  Index 40 ( PUB.TimeSheet, EmpNoDayRecorded ): activated 
+[2015/03/31@10:18:18.750-0300] P-11672      T-10028 I          : (8830)  Index 41 ( PUB.Vacation, EmpNoStartDate ): activated 
+[2015/03/31@10:18:18.750-0300] P-11672      T-10028 I          : (8830)  Index 42 ( PUB.Family, EmpNoRelativeName ): activated 
+[2015/03/31@10:18:18.751-0300] P-11672      T-10028 I          : (8830)  Index 43 ( PUB.Department, DeptCode ): activated 
+[2015/03/31@10:18:18.751-0300] P-11672      T-10028 I          : (8830)  Index 44 ( PUB.Benefits, EmpNo ): activated 
+[2015/03/31@10:18:18.751-0300] P-11672      T-10028 I          : (8830)  Index 45 ( PUB.ShipTo, custnumshipto ): activated 
+[2015/03/31@10:18:18.752-0300] P-11672      T-10028 I          : (8830)  Index 46 ( PUB.BillTo, custnumbillto ): activated 
+[2015/03/31@10:18:18.752-0300] P-11672      T-10028 I          : (8830)  Index 48 ( PUB.Order, CustOrder ): activated 
+[2015/03/31@10:18:18.753-0300] P-11672      T-10028 I          : (8830)  Index 49 ( PUB.Order, OrderDate ): activated 
+[2015/03/31@10:18:18.753-0300] P-11672      T-10028 I          : (8830)  Index 47 ( PUB.Order, OrderNum ): activated 
+[2015/03/31@10:18:18.753-0300] P-11672      T-10028 I          : (8830)  Index 50 ( PUB.Order, OrderStatus ): activated 
+[2015/03/31@10:18:18.754-0300] P-11672      T-10028 I          : (8830)  Index 51 ( PUB.Order, SalesRep ): activated 
+[2015/03/31@10:18:18.754-0300] P-11672      T-10028 I          : (8830)  Index 52 ( PUB.Supplier, SupplierID ): activated 
+[2015/03/31@10:18:18.755-0300] P-11672      T-10028 I          : (8830)  Index 54 ( PUB.Warehouse, warehousename ): activated 
+[2015/03/31@10:18:18.755-0300] P-11672      T-10028 I          : (8830)  Index 53 ( PUB.Warehouse, warehousenum ): activated 
+[2015/03/31@10:18:18.755-0300] P-11672      T-10028 I          : (8830)  Index 55 ( PUB.Bin, BinNum ): activated 
+[2015/03/31@10:18:18.756-0300] P-11672      T-10028 I          : (8830)  Index 56 ( PUB.Bin, ItemNum ): activated 
+[2015/03/31@10:18:18.756-0300] P-11672      T-10028 I          : (8830)  Index 57 ( PUB.Bin, WarehouseNumItemNum ): activated 
+[2015/03/31@10:18:18.756-0300] P-11672      T-10028 I          : (8830)  Index 58 ( PUB.InventoryTrans, default ): activated 
+[2015/03/31@10:18:18.757-0300] P-11672      T-10028 I          : (8830)  Index 59 ( PUB.PurchaseOrder, PONum ): activated 
+[2015/03/31@10:18:18.757-0300] P-11672      T-10028 I          : (8830)  Index 60 ( PUB.POLine, PONumLinenum ): activated 
+[2015/03/31@10:18:18.758-0300] P-11672      T-10028 I          : (8830)  Index 62 ( PUB.SupplierItemXref, ItemNumSupplierID ): activated 
+[2015/03/31@10:18:18.758-0300] P-11672      T-10028 I          : (8830)  Index 61 ( PUB.SupplierItemXref, SupplieridItemNum ): activated 
+[2015/03/31@10:18:18.900-0300] P-11672      T-10028 I          : (11465) 177 indexes were rebuilt. 
+[2015/03/31@10:18:18.902-0300] P-11672      T-10028 I          : (-----) Index rebuild complete.  0 error(s) encountered.  Elapsed time: 10.915
+[2015/03/31@10:18:18.918-0300] P-11672      T-10028 I          : (334)   Idxbuild session end. 
