@@ -1,23 +1,23 @@
 package br.com.oeloganalyzer.model;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class LogLine {
 
-	private  String dateTime;
-	private  Date date; 
+	private  Calendar dateTime;
 	private  int pid;
 	private  int threadNumber;
-	private  int messageType;
+	private  String messageType;
 	private  String processType;
 	private  int userNumber;
     private  String messageNumber;
     private  String message;
     
-	public String getDateTime() {
+	public Calendar getDateTime() {
 		return dateTime;
 	}
-	public void setDateTime(String dateTime) {
+	public void setDateTime(Calendar dateTime) {
 		this.dateTime = dateTime;
 	}
 	public int getPid() {
@@ -32,10 +32,10 @@ public class LogLine {
 	public void setThreadNumber(int threadNumber) {
 		this.threadNumber = threadNumber;
 	}
-	public int getMessageType() {
+	public String getMessageType() {
 		return messageType;
 	}
-	public void setMessageType(int messageType) {
+	public void setMessageType(String messageType) {
 		this.messageType = messageType;
 	}
 	public String getProcessType() {

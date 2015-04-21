@@ -5,10 +5,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.oeloganalyzer.model.LogLineFactory;
 import br.com.oeloganalyzer.model.LogLine;
 
 public class LogFileReader {
@@ -24,28 +24,19 @@ public class LogFileReader {
 		String line = br.readLine();
 
 		while (line != null) {
-			// System.out.println(line);
 
 			if (line == null || line.isEmpty() || line.length() < 50) {
 				line = br.readLine();
 				continue;
 			}
-
-				LogLine logLine = new LogLine();
-				logLine.setDateTime(line.substring(0, 30));
-
-				String pid = line.substring(33, 42);
-				if (!pid.isEmpty()) { 
-					logLine.setPid(Integer.parseInt(pid.trim()));
-				 }
-				
-				String thread = line.substring(46, 50);
-				if (!thread.isEmpty()) { 
-					logLine.setThreadNumber(Integer.parseInt(thread.trim()));
-				 }
-
-				
-				
+			
+			LogLineFactory llf = new LogLineFactory();
+			
+			LogLine logLine = llf.getLogLine(line);
+			
+			//System.out.println(logLine);
+			
+			if (logLine != null)
 				list.add(logLine);
 				
 			line = br.readLine();
