@@ -28,11 +28,11 @@ public class LogLineFactory {
 		LogLine logLine = new LogLine();
 		
 		dateTime = Calendar.getInstance();
-		String tmpDay = line.substring(9,11);
-		String tmpMonth = line.substring(6,8);
-		String tmpYear = line.substring(1,5);
-		dateTime.set(Calendar.DAY_OF_MONTH, 30 /* Integer.parseInt(tmpDay) */ );
-		dateTime.set(Calendar.MONTH, Integer.parseInt(tmpMonth));
+		String tmpDay = line.substring(9,11).trim();
+		String tmpMonth = line.substring(6,8).trim();
+		String tmpYear = line.substring(1,5).trim();
+		dateTime.set(Calendar.DAY_OF_MONTH, Integer.parseInt(tmpDay));
+		dateTime.set(Calendar.MONTH, Integer.parseInt(tmpMonth) - 1);
 		dateTime.set(Calendar.YEAR, Integer.parseInt(tmpYear));
 		logLine.setDateTime(dateTime);
 		
@@ -48,7 +48,7 @@ public class LogLineFactory {
 			logLine.setPid(Integer.parseInt(tmpPid.trim()));
 		 }
 		
-		String thread = line.substring(46, 50);
+		String thread = line.substring(46, 51);
 		if (!thread.isEmpty()) { 
 			logLine.setThreadNumber(Integer.parseInt(thread.trim()));
 		 }
@@ -60,9 +60,24 @@ public class LogLineFactory {
 
 		String tmpProcessType = line.substring(54, 61);
 		if (!tmpProcessType.isEmpty()) {
-			logLine.setMessageType(tmpProcessType);
+			logLine.setProcessType(tmpProcessType);
 		}
 
+		String tmpUserNumber = line.substring(64, 65).trim();
+		if (!tmpUserNumber.isEmpty()) {
+			logLine.setUserNumber(Integer.parseInt(tmpUserNumber));
+		}
+
+		String tmpMessageNumber = line.substring(65, 71);
+		if (!tmpMessageNumber.isEmpty()) {
+			logLine.setMessageNumber(tmpMessageNumber);
+		}
+
+		String tmpMessage = line.substring(73, line.length() - 1);
+		if (!tmpMessage.isEmpty()) {
+			logLine.setMessage(tmpMessage);
+		}
+		
 		return logLine;
 		
 	}

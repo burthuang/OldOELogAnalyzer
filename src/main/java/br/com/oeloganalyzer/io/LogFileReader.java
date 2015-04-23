@@ -34,11 +34,9 @@ public class LogFileReader {
 			
 			LogLine logLine = llf.getLogLine(line);
 			
-			//System.out.println(logLine);
-			
 			if (logLine != null)
 				list.add(logLine);
-				
+			
 			line = br.readLine();
 		}
 
